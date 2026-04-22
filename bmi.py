@@ -9,7 +9,7 @@ try:
  if height == 'cms':
     height=st.number_input('cms')
     bmi=weight/((height/100)**2)
- elif status =='meters':
+ elif height =='meters':
     height=st.number_input('meters')
     bmi=weight/((height)**2)
 
